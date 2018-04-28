@@ -1,9 +1,5 @@
 /****FONTS****/
-@font-face{
-    font-family: 'Carson';
-    src:url('../fonts/Carson.otf');
-    src: local('../fonts/Carson.otf'), url('../fonts/Carson.otf') format('OpenType');
-}
+
 
 /****STYLE****/
 body {
