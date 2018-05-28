@@ -5,6 +5,20 @@
     src: local('../fonts/FRABK.ttf'), url('../fonts/FRABK.ttf') format('TrueType');
 }
 
+@font-face{
+    font-family: 'CRC35';
+    src:url('../fonts/CRC35.otf');
+    src: local('../fonts/CRC35.otf'), url('../fonts/CRC35.otf') format('OpenType');
+}
+
+
+@font-face{
+    font-family: 'CRC65';
+    src:url('../fonts/CRC65.otf');
+    src: local('../fonts/CRC65.otf'), url('../fonts/CRC65.otf') format('OpenType');
+}
+
+
 /****STYLE****/
 body {
     /*    
@@ -29,15 +43,17 @@ img {
 
 body{
     color: #1d1d1d;
-    font-family: 'FRABK';
+    font-family: 'CRC35';
 }
 
 h1{
     text-transform: uppercase;
+    font-family: 'CRC65';
 }
 
 h2{
     text-transform: capitalize;
+    font-family: 'CRC65';
 }
 
 span{
