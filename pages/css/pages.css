@@ -257,7 +257,7 @@ p{
 
 /*------INPUT------*/
 #input{
-    margin: 75px 0 75px 5px;
+    margin: 75px 0 0 5px;
 }
 
 input{
@@ -270,4 +270,9 @@ input{
     padding: 13px;
     border: none;
     border-radius: 5px;
+}
+
+/*------GOOGLE MAPS------*/
+#google_maps{
+    margin: 75px 0 75px 5px;
 }
