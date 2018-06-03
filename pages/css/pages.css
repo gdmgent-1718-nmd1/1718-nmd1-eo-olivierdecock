@@ -251,3 +251,29 @@ p{
     transition: .3s ease-in-out;
 }
 
+/*------ICONEN------*/
+#iconen{
+    margin-left: 5px;
+    margin-top: 75px;
+}
+
+#iconen a img{
+    width: 100px;
+}
+
+/*------INPUT------*/
+#input{
+    margin: 75px 0 75px 5px;
+}
+
+input{
+    font-family: 'CRC35';
+}
+
+#bruin{
+    background-color: #e3ac92;
+    color: #f1f2f6;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+}
