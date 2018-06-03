@@ -29,6 +29,8 @@
 body {
     line-height: 1.5em;
     padding: 25px;
+    color: #1d1d1d;
+    font-family: 'CRC35';
 }
 
 img {
@@ -37,10 +39,6 @@ img {
 
 /* Voeg jouw css hieraan toe */
 
-body{
-    color: #1d1d1d;
-    font-family: 'CRC35';
-}
 
 h1{
     text-transform: uppercase;
@@ -52,12 +50,12 @@ h2{
     font-family: 'CRC65';
 }
 
-span{
-    border-bottom: solid 3px #1d1d1d;
-}
-
 p{
     font-family: 'CRC35';
+}
+
+.festival{
+    margin-top: 75px;
 }
 
 /*------LOGO------*/
