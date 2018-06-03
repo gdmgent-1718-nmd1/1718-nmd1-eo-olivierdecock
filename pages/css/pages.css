@@ -66,10 +66,6 @@ p{
     margin-bottom: 75px;
 }
 
-#menudrop{
-    margin-top: 75px;
-}
-
 /*------LOGO------*/
 #logo{
     margin-top: 75px;
@@ -288,4 +284,6 @@ input{
 #google_maps{
     margin: 75px 0 75px 5px;
 }
+
+
 
