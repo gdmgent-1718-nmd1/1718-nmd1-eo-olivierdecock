@@ -18,6 +18,12 @@
     src: local('../fonts/CRC65.otf'), url('../fonts/CRC65.otf') format('OpenType');
 }
 
+@font-face{
+    font-family: 'playfair';
+    src:url('../fonts/PlayfairDisplay-Regular.ttf');
+    src: local('../fonts/PlayfairDisplay-Regular.ttf'), url('../fonts/PlayfairDisplay-Regular.ttf') format('TrueType');
+}
+
 
 /****STYLE****/
 body {
@@ -58,5 +64,190 @@ h2{
 
 span{
     border-bottom: solid 3px #1d1d1d;
+}
+
+p{
+    font-family: 'CRC35';
+}
+
+/*------LOGO------*/
+#logo{
+    margin-top: 75px;
+    margin-left: 5px;
+}
+
+#logogroot{
+    width: 150px;
+}
+
+/*------NAV------*/
+#nav{
+    margin-top: 75px;
+    margin-left: 5px;
+}
+
+#nav nav{
+    font-family: 'playfair';
+    font-size:  17.9pt;
+    color: #dc8d65;
+    text-transform: uppercase;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 1px 3px 5px grey;
+    text-align: center;
+    width: 700px;
+    padding: 27px 0;
+}
+
+#nav nav a{
+    text-decoration: none;
+    color: #dc8d65;
+    padding: 0 10px;
+    margin: 0 10px;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#nav nav a:hover{
+    border-bottom: solid 2px #dc8d65;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#nav #navlogo{
+    width: 50px;
+}
+
+/*------KLEUREN------*/
+#kleuren{
+    font-family: 'CRC35';
+    margin-top: 75px;
+    margin-left: 5px;
+    clear: both;
+}
+
+#kleuren div{
+    width: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+#kleur1{
+    background-color: #1454A3;
+    padding: 15px 0;
+}
+
+#kleur2{
+    background-color: #dc8d65;
+    padding: 15px 0;
+}
+
+#kleur3{
+    background-color: #e3ac92;
+    padding: 15px 0;
+}
+
+#kleur4{
+    background-color: #e2e2e2;
+    padding: 15px 0;
+}
+
+#kleur5{
+    background-color: #f1f2f6;
+    padding: 15px 0;
+}
+
+/*------LETTERTYPES------*/
+#lettertypes{
+    clear: both;
+    padding-top: 75px;
+    margin-left: 5px;
+}
+
+#nav h3:first-child{
+    font-family: 'playfair';
+    font-size: 17.9pt;
+    text-transform: uppercase;
+    margin-top: -55px;
+    margin-bottom: -14px;
+}
+
+#h1 h3:first-child{
+    font-family: 'CRC65';
+    font-size: 20pt;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: -14px;
+    margin-left: 5px;
+}
+
+#h2 h3:first-child{
+    font-family: 'CRC65';
+    font-size: 16.665pt;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: -14px;
+}
+
+#tekst h3:first-child{
+    font-family: 'CRC35';
+    font-size: 16.665pt;
+    margin-top: 20px;
+    margin-bottom: -14px;
+}
+
+#placeholder h3:first-child{
+    font-family: 'CRC35';
+    font-size: 16.665pt;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: -14px;
+}
+
+/*------LINKS & KNOPPEN------*/
+#links_en_knoppen{
+    margin-top: 75px;
+    margin-left: 5px;
+}
+
+#links_en_knoppen p{
+    margin-top: 0px;
+}
+
+#link{
+    font-family: 'CRC35';
+    font-size: 16.665pt;
+    text-decoration: underline;
+    color: black;
+    clear: both;
+    text-transform: uppercase;
+}
+
+#link:hover{
+    opacity: 0.5;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#button{
+    background-color: #e3ac92;
+    color: #1454a3;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'CRC65';
+    font-size: 16.665pt;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 300px;
+    text-decoration: none;
+    line-height: 3;
+}
+
+#button:hover{
+    color: rgba(20,84,163,0.5);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
